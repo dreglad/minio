@@ -3,43 +3,43 @@ module github.com/minio/minio
 go 1.16
 
 require (
-	cloud.google.com/go/storage v1.10.0
+	cloud.google.com/go/storage v1.22.1
 	github.com/Azure/azure-pipeline-go v0.2.2
 	github.com/Azure/azure-storage-blob-go v0.10.0
-	github.com/Shopify/sarama v1.27.2
+	github.com/Shopify/sarama v1.30.0
 	github.com/VividCortex/ewma v1.1.1
 	github.com/alecthomas/participle v0.2.1
 	github.com/bcicen/jstream v1.0.1
 	github.com/beevik/ntp v0.3.0
 	github.com/bits-and-blooms/bloom/v3 v3.0.1
-	github.com/cespare/xxhash/v2 v2.1.1
+	github.com/cespare/xxhash/v2 v2.1.2
 	github.com/cheggaaa/pb v1.0.29
 	github.com/colinmarc/hdfs/v2 v2.2.0
-	github.com/coredns/coredns v1.4.0
+	github.com/coredns/coredns v1.9.4
 	github.com/dchest/siphash v1.2.1
 	github.com/djherbis/atime v1.0.0
 	github.com/dswarbrick/smart v0.0.0-20190505152634-909a45200d6d
 	github.com/dustin/go-humanize v1.0.0
 	github.com/eclipse/paho.mqtt.golang v1.3.0
-	github.com/elastic/go-elasticsearch/v7 v7.12.0
+	github.com/elastic/go-elasticsearch/v7 v7.17.1
 	github.com/fatih/color v1.12.0
 	github.com/go-ldap/ldap/v3 v3.2.4
 	github.com/go-openapi/loads v0.20.2
-	github.com/go-sql-driver/mysql v1.5.0
+	github.com/go-sql-driver/mysql v1.6.0
 	github.com/golang-jwt/jwt v3.2.1+incompatible
 	github.com/gomodule/redigo v2.0.0+incompatible
-	github.com/google/uuid v1.1.2
+	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
 	github.com/jcmturner/gokrb5/v8 v8.4.2
-	github.com/json-iterator/go v1.1.11
-	github.com/klauspost/compress v1.13.5
+	github.com/json-iterator/go v1.1.12
+	github.com/klauspost/compress v1.15.0
 	github.com/klauspost/cpuid/v2 v2.0.4
 	github.com/klauspost/pgzip v1.2.5
 	github.com/klauspost/readahead v1.3.1
 	github.com/klauspost/reedsolomon v1.9.11
-	github.com/lib/pq v1.9.0
+	github.com/lib/pq v1.10.2
 	github.com/mattn/go-runewidth v0.0.13 // indirect
-	github.com/miekg/dns v1.1.35
+	github.com/miekg/dns v1.1.50
 	github.com/minio/cli v1.22.0
 	github.com/minio/console v0.10.0
 	github.com/minio/csvparser v1.0.0
@@ -64,27 +64,26 @@ require (
 	github.com/nsqio/go-nsq v1.0.8
 	github.com/olivere/elastic/v7 v7.0.22
 	github.com/philhofer/fwd v1.1.1
-	github.com/pierrec/lz4 v2.6.0+incompatible
+	github.com/pierrec/lz4 v2.6.1+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.8.0
+	github.com/prometheus/client_golang v1.13.0
 	github.com/prometheus/client_model v0.2.0
-	github.com/prometheus/procfs v0.7.3
+	github.com/prometheus/procfs v0.8.0
 	github.com/rs/cors v1.7.0
 	github.com/secure-io/sio-go v0.3.1
 	github.com/shirou/gopsutil/v3 v3.21.7
 	github.com/streadway/amqp v1.0.0
 	github.com/tinylib/msgp v1.1.6-0.20210521143832-0becd170c402
 	github.com/valyala/bytebufferpool v1.0.0
-	github.com/valyala/tcplisten v0.0.0-20161114210144-ceec8f93295a
+	github.com/valyala/tcplisten v1.0.0
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c
-	go.etcd.io/etcd/api/v3 v3.5.0-beta.4
-	go.etcd.io/etcd/client/v3 v3.5.0-beta.4
-	go.uber.org/atomic v1.7.0
-	go.uber.org/zap v1.16.1-0.20210329175301-c23abee72d19
-	golang.org/x/crypto v0.0.0-20210616213533-5ff15b29337e
-	golang.org/x/sys v0.0.0-20210819135213-f52c844e1c1c
-	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
-	golang.org/x/tools v0.1.1 // indirect
-	google.golang.org/api v0.31.0
+	go.etcd.io/etcd/api/v3 v3.5.4
+	go.etcd.io/etcd/client/v3 v3.5.4
+	go.uber.org/atomic v1.9.0
+	go.uber.org/zap v1.17.0
+	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
+	golang.org/x/sys v0.0.0-20220804214406-8e32c043e418
+	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8
+	google.golang.org/api v0.94.0
 	gopkg.in/yaml.v2 v2.4.0
 )
