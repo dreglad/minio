@@ -12,7 +12,7 @@ require (
 	github.com/bcicen/jstream v1.0.1
 	github.com/beevik/ntp v0.3.0
 	github.com/bits-and-blooms/bloom/v3 v3.0.1
-	github.com/cespare/xxhash/v2 v2.1.1
+	github.com/cespare/xxhash/v2 v2.1.2
 	github.com/cheggaaa/pb v1.0.29
 	github.com/colinmarc/hdfs/v2 v2.2.0
 	github.com/coredns/coredns v1.4.0
@@ -22,33 +22,32 @@ require (
 	github.com/dustin/go-humanize v1.0.0
 	github.com/eclipse/paho.mqtt.golang v1.3.0
 	github.com/elastic/go-elasticsearch/v7 v7.12.0
-	github.com/fatih/color v1.12.0
+	github.com/fatih/color v1.13.0
 	github.com/go-ldap/ldap/v3 v3.2.4
 	github.com/go-openapi/loads v0.20.2
 	github.com/go-sql-driver/mysql v1.5.0
-	github.com/golang-jwt/jwt v3.2.1+incompatible
+	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/gomodule/redigo v2.0.0+incompatible
-	github.com/google/uuid v1.1.2
+	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
 	github.com/jcmturner/gokrb5/v8 v8.4.2
-	github.com/json-iterator/go v1.1.11
-	github.com/klauspost/compress v1.13.5
-	github.com/klauspost/cpuid/v2 v2.0.4
+	github.com/json-iterator/go v1.1.12
+	github.com/klauspost/compress v1.13.6
+	github.com/klauspost/cpuid/v2 v2.0.9
 	github.com/klauspost/pgzip v1.2.5
 	github.com/klauspost/readahead v1.3.1
 	github.com/klauspost/reedsolomon v1.9.11
 	github.com/lib/pq v1.9.0
-	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/miekg/dns v1.1.35
 	github.com/minio/cli v1.22.0
-	github.com/minio/console v0.10.0
+	github.com/minio/console v0.12.3
 	github.com/minio/csvparser v1.0.0
 	github.com/minio/highwayhash v1.0.2
 	github.com/minio/kes v0.14.0
-	github.com/minio/madmin-go v1.1.6-0.20210917204419-f12dc0d0a8bd
-	github.com/minio/minio-go/v7 v7.0.15-0.20210917235750-a16dfb14e6f6
+	github.com/minio/madmin-go v1.1.12
+	github.com/minio/minio-go/v7 v7.0.15
 	github.com/minio/parquet-go v1.0.0
-	github.com/minio/pkg v1.1.3
+	github.com/minio/pkg v1.1.5
 	github.com/minio/selfupdate v0.3.1
 	github.com/minio/sha256-simd v1.0.0
 	github.com/minio/simdjson-go v0.2.1
@@ -66,25 +65,24 @@ require (
 	github.com/philhofer/fwd v1.1.1
 	github.com/pierrec/lz4 v2.6.0+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.8.0
+	github.com/prometheus/client_golang v1.11.0
 	github.com/prometheus/client_model v0.2.0
 	github.com/prometheus/procfs v0.7.3
 	github.com/rs/cors v1.7.0
 	github.com/secure-io/sio-go v0.3.1
-	github.com/shirou/gopsutil/v3 v3.21.7
+	github.com/shirou/gopsutil/v3 v3.21.8
 	github.com/streadway/amqp v1.0.0
-	github.com/tinylib/msgp v1.1.6-0.20210521143832-0becd170c402
+	github.com/tinylib/msgp v1.1.6
 	github.com/valyala/bytebufferpool v1.0.0
 	github.com/valyala/tcplisten v0.0.0-20161114210144-ceec8f93295a
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c
-	go.etcd.io/etcd/api/v3 v3.5.0-beta.4
-	go.etcd.io/etcd/client/v3 v3.5.0-beta.4
-	go.uber.org/atomic v1.7.0
-	go.uber.org/zap v1.16.1-0.20210329175301-c23abee72d19
-	golang.org/x/crypto v0.0.0-20210616213533-5ff15b29337e
-	golang.org/x/sys v0.0.0-20210819135213-f52c844e1c1c
+	go.etcd.io/etcd/api/v3 v3.5.0
+	go.etcd.io/etcd/client/v3 v3.5.0
+	go.uber.org/atomic v1.9.0
+	go.uber.org/zap v1.19.1
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/sys v0.0.0-20210927094055-39ccf1dd6fa6
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
-	golang.org/x/tools v0.1.1 // indirect
 	google.golang.org/api v0.31.0
 	gopkg.in/yaml.v2 v2.4.0
 )
